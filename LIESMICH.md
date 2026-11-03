@@ -9,7 +9,12 @@ Ein Video läuft, Striche stehen still, und was sie durchquert, wird Ton: Lichtt
 
 ---
 
-## 0. Neu in dieser Runde
+## 0. Neu in Runde 4 (3.11.)
+
+- **Neuer Abschnitt „Anzeige“** (gleich unter den Strichen; vorher stand das Häkchen für die roten Balken versteckt unter „Tonhöhen“): Striche an/aus, Deckkraft, Balken an/aus, ihre Farbe, Skala. Und darunter **„Im Export“**: was davon in Bild, Video und Live-Aufnahme kommt, getrennt von dem, was du beim Arbeiten siehst. Im Export gibt es außerdem keinen hellen „aktiven“ Strich und keinen Rahmen vom Aufziehen.
+- **Zwei Breiten pro Strich:** *Lesebreite* (so breit wird gelesen, ändert den Ton) und, wenn du „so dick zeigen, wie gelesen wird“ ausschaltest, eine eigene *Dicke sichtbar* (nur fürs Auge). Der Strich ist jetzt eine gefüllte Fläche über seine ganze Breite (vorher nur eine feste dünne Linie mit zwei Rändern, darum sah breiter nicht breiter aus). Ist die Lesebreite größer als die sichtbare Dicke, zeigen zwei feine Linien, wo gelesen wird. Die Balken sitzen außen an der Fläche.
+
+## 0. Neu in der Runde davor
 
 - **Drehung von Hand** (Quelle): Handyvideos liegen oft quer in der Datei, und eine Notiz in den Metadaten sagt „um 90° drehen“. Ob der Browser das beim Hochladen auf die Grafikkarte anwendet, ist verschieden. Darum gibt es jetzt die Auswahl. Gedreht wird im Shader beim Lesen (`gedreht(uv, drehung)`), das Feld tauscht Breite und Höhe.
 - **Der Strich ist deckend weiß**, mit dunklem Rand, auch im exportierten Video. Ist er breiter als ein paar Pixel, zeigen zwei feine Linien die Lesebreite.
